@@ -49,65 +49,64 @@
 32-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:16:9-54
 33        android:supportsRtl="true"
 33-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:17:9-35
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme" >
-35-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:18:9-40
-36
-37        <!--
-38             The API key for Google Maps-based APIs is defined as a string resource.
-39             (See the file "res/values/google_maps_api.xml").
-40             Note that the API key is linked to the encryption key used to sign the APK.
-41             You need a different API key for each encryption key, including the release key that is used to
-42             sign the APK for publishing.
-43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-44        -->
-45        <meta-data
-45-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:28:9-30:55
-46            android:name="com.google.android.geo.API_KEY"
-46-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:29:13-58
-47            android:value="@string/google_maps_key" />
-47-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:30:13-52
-48
-49        <activity
-49-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:32:9-40:20
-50            android:name="com.sree.trackmylocation.MapsActivity"
-50-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:33:13-41
-51            android:label="@string/title_activity_maps" >
-51-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:34:13-56
-52            <intent-filter>
-52-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:35:13-39:29
-53                <action android:name="android.intent.action.MAIN" />
-53-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:36:17-69
-53-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:36:25-66
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-55-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:38:17-77
-55-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:38:27-74
-56            </intent-filter>
-57        </activity>
-58        <!-- Needs to be explicitly declared on P+ -->
-59        <uses-library
-59-->[com.google.android.gms:play-services-maps:16.1.0] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/ce8a6839aea1199a4708d9a7a83f7459/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
-60            android:name="org.apache.http.legacy"
-60-->[com.google.android.gms:play-services-maps:16.1.0] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/ce8a6839aea1199a4708d9a7a83f7459/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
-61            android:required="false" />
-61-->[com.google.android.gms:play-services-maps:16.1.0] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/ce8a6839aea1199a4708d9a7a83f7459/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
-62
-63        <activity
-63-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-64-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-65            android:exported="false"
-65-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-66-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-67
-68        <meta-data
-68-->[com.google.android.gms:play-services-basement:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/6b3d6577e6802c4d4ed8865b7a182783/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
-69            android:name="com.google.android.gms.version"
-69-->[com.google.android.gms:play-services-basement:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/6b3d6577e6802c4d4ed8865b7a182783/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
-70            android:value="@integer/google_play_services_version" />
-70-->[com.google.android.gms:play-services-basement:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/6b3d6577e6802c4d4ed8865b7a182783/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
-71    </application>
-72
-73</manifest>
+34        android:theme="@style/AppTheme" >
+34-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:18:9-40
+35
+36        <!--
+37             The API key for Google Maps-based APIs is defined as a string resource.
+38             (See the file "res/values/google_maps_api.xml").
+39             Note that the API key is linked to the encryption key used to sign the APK.
+40             You need a different API key for each encryption key, including the release key that is used to
+41             sign the APK for publishing.
+42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+43        -->
+44        <meta-data
+44-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:28:9-30:55
+45            android:name="com.google.android.geo.API_KEY"
+45-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:29:13-58
+46            android:value="@string/google_maps_key" />
+46-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:30:13-52
+47
+48        <activity
+48-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:32:9-40:20
+49            android:name="com.sree.trackmylocation.MapsActivity"
+49-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:33:13-41
+50            android:label="@string/title_activity_maps" >
+50-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:34:13-56
+51            <intent-filter>
+51-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:35:13-39:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:36:17-69
+52-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:36:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:38:17-77
+54-->/Users/sgeetha2/OneDrive - JNJ/Desktop/sree/TrackMyLocation/app/src/main/AndroidManifest.xml:38:27-74
+55            </intent-filter>
+56        </activity>
+57        <!-- Needs to be explicitly declared on P+ -->
+58        <uses-library
+58-->[com.google.android.gms:play-services-maps:16.1.0] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/ce8a6839aea1199a4708d9a7a83f7459/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+59            android:name="org.apache.http.legacy"
+59-->[com.google.android.gms:play-services-maps:16.1.0] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/ce8a6839aea1199a4708d9a7a83f7459/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+60            android:required="false" />
+60-->[com.google.android.gms:play-services-maps:16.1.0] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/ce8a6839aea1199a4708d9a7a83f7459/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/200ac02c69d45ce3655249a4f5496605/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/6b3d6577e6802c4d4ed8865b7a182783/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/6b3d6577e6802c4d4ed8865b7a182783/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:16.0.1] /Users/sgeetha2/.gradle/caches/transforms-2/files-2.1/6b3d6577e6802c4d4ed8865b7a182783/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>
