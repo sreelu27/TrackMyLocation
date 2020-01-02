@@ -50,6 +50,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // for Activity#requestPermissions for more details.
             return;
         }
+        //check if the coordinates are provided from the Network Provider
         if(locationManager.isProviderEnabled(locationManager.NETWORK_PROVIDER)){
             locationManager.requestLocationUpdates(locationManager.NETWORK_PROVIDER, 0, 0, new LocationListener() {
                 @Override
@@ -86,6 +87,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
             });
         }
+        //check if location coordinates are provided from the GPS Provider
         else if(locationManager.isProviderEnabled(locationManager.GPS_PROVIDER)){
             locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 0, 0, new LocationListener() {
                 @Override
